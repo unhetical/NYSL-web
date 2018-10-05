@@ -1,0 +1,396 @@
+@charset "utf-8";
+
+* {
+    font-family: cursive;
+    font-weight: 100;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*            HEADER             */
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    display:flex;
+    position: fixed;
+    overflow: auto;
+    margin: 15px;
+}
+
+
+.titulo {
+    background-image: url(img/design2_image1.jpg);
+    position: static;
+    display: block;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin-top: 50px;
+    border: 2px solid greenyellow;
+}
+
+
+
+/* SUBTITLE AZUL   */
+
+.subtitulo {
+    border: 2px solid greenyellow;
+}
+
+
+/*        BODY      */
+
+body {
+    background-image: url(img/cesped.jpg);
+    height: 100vh;
+}
+
+
+/*     TYPES OF TEXT H,P,A     */
+
+.h1sub {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.h1title {
+    font-family: fantasy;
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+    padding-top: 40px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: yellowgreen;
+
+}
+
+
+h2 {
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+    background-color: #183a4a;
+    display: block;
+    padding: 5px;
+}
+
+h3 {
+    color: #183a4a;
+}
+
+h4 {
+    font-weight: 600;
+    color: #183a4a;
+}
+
+.underline {
+    text-decoration-line: underline;
+}
+
+p {
+    color: white;
+}
+
+.fw200 {
+    font-weight: 200;
+}
+
+.textinline {
+    width: 100%;
+}
+
+.textinline p {
+    display: inline-block;
+    width: 49%;
+}
+
+a {
+    color: greenyellow;
+}
+
+
+/*     CONTENT       */
+
+.titulocontent {
+    text-align: center;
+}
+
+.contenido {
+    color: white;
+    display: block;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+    border: 2px solid greenyellow;
+    background-color: rgba(255, 165, 0, 0.54);
+    margin-bottom: 50px;
+    margin-right: 130px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+
+/*       FOOTER      */
+
+footer {
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+}
+
+
+/*      NAVIGATION MENU      */
+
+nav {
+    background-color: white;
+    position: fixed;
+    overflow: auto;
+}
+
+
+
+.link {
+    font-family: fantasy;
+    display: block;
+    color: white;
+    padding: 10px 11px;
+    text-decoration: none;
+    background-color: #183a4a;
+    border: 2px;
+    border-style: solid;
+    border-color: greenyellow;
+
+}
+
+
+
+.link1 {
+    font-family: fantasy;
+    display: block;
+    color: rgba(255, 181, 47, 0.9);
+    padding: 10px 11px;
+    text-decoration: none;
+    background-color: #183a4a;
+    border: 2px;
+    border-style: solid;
+    border-color: greenyellow;
+}
+
+
+a:hover {
+    background-color: greenyellow;
+}
+
+a:active {
+    color: rgba(255, 165, 0, 0.62);
+}
+
+
+
+/*        LISTS        */
+
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+.circle {
+    list-style-type: circle;
+}
+
+
+
+ol {
+    text-align-last: left;
+    padding-left: 40px;
+}
+
+
+.margintop20 {
+    margin-top: 20px;
+}
+
+
+.menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*         TABLES          */
+
+
+.table1 {
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+    border: 2px solid #183a4a; 
+}
+
+.table2 {
+    width: 100%;
+    margin: 20px;
+}
+
+
+.table1 th {
+    width: 20%;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    background-color:#183a4a;
+}
+
+.table2 th {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.table1 td{
+    border: 1px solid #183a4a;
+}
+
+
+/*          FORM          */
+
+
+
+
+/*        FLEX BOX         */
+
+
+.box1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.box2 {
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.box3 {
+    font-size: 14px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.box4 {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+
+.rowline {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 100%;
+}
+
+
+/*      CHILD BOX     */
+
+
+.box1 label {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+}
+
+label > input {
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+}
+
+option {
+    color: white;
+    background-color: #183a4a;
+    border: 2px solid #183a4a;
+    opacity: 0.8;
+}
+
+
+input {
+    border: 2px solid #183a4a;
+    opacity: 0.8;
+    margin: 5px;
+}
+
+select {
+    border: 2px solid #183a4a;
+    opacity: 0.8;
+}
+
+
+/*         MAPS         */
+
+
+iframe {
+    width: 100%;
+    border-width: 0px;
+}
+
+.flexmap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+figure {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    border: 2px solid #183a4a;
+    margin: 10px;
+}

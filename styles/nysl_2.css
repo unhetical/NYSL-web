@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+* {
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+#titulo {
+    height: 300px;
+    margin-top: 50px;
+
+}
+
+header {
+    background-image: url(img/design2_image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+
+}
+
+#subtitulo {
+    height: 50px;
+
+}
+
+h1 {
+    font-style: italic;
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    background-color: black;
+
+}
+
+#contenido {
+    margin-left: 200px;
+
+}
+
+#logo {
+    position: absolute;
+    left: 50px;
+    top: 410px;
+}
+
+.link {
+    display: inline;
+    color: white;
+    background-color: blue;
+    border-style: solid;
+    border-color: black;
+    margin: 10px;
+}
+    
+    .link1 {
+         display: inline;
+    color: white;
+    background-color: green;
+    border-style: solid;
+    border-color: black;
+    margin: 10px;
+      
+    }
+
+
+nav{
+    font-style: normal;
+    position: absolute;
+    left: 900px;
+    bottom: 535px;
+       
+}

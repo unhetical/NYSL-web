@@ -1,0 +1,353 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Northside Youth Soccer League</title>
+    <link rel="stylesheet" href="styles/nysl_3.css">
+
+
+</head>
+
+<body>
+
+    <div class="logo">
+        <img src="styles/img/nysl_logo.png" alt="Logo">
+
+    </div>
+
+    <header>
+
+        <div class="titulo">
+
+            <h1 class="h1title">Northside Youth Soccer League</h1>
+
+        </div>
+
+        <div class="subtitulo">
+            <h2>Registration Form</h2>
+        </div>
+
+    </header>
+
+    <nav>
+
+        <ul class="menu">
+            <li><a class="link" href="index.html">Home</a></li>
+
+            <li><a class="link" href="AboutNYSL.html">About NYSL</a></li>
+
+            <li><a class="link" href="Contact.html">Contact</a></li>
+
+            <li><a class="link" href="Rules.html">Rules &#38; Policies</a></li>
+
+            <li><a class="link" href="game_info.html">Game info</a></li>
+
+            <li><a class="link1" href="Registration.html">Registration</a></li>
+        </ul>
+
+
+    </nav>
+
+
+    <div class="contenido">
+
+        <form action="show_data.html" method="get">
+
+            <div class="box1">
+
+                <div class="box1">
+                    <label>
+                        Player's First Name:
+                        <input type="text" name="first_name" placeholder="name" required>
+                    </label>
+
+                    <label>
+                        Last Name:
+                        <input type="text" name="lastname" placeholder="last name" required>
+                    </label>
+
+                </div>
+
+                <div class="box1">
+                    <label>
+                        Street Adress:
+                        <input type="text" name="adress" placeholder="adress" required>
+                    </label>
+                </div>
+
+                <div class="box1">
+
+                    <label>
+                        City:
+                        <input type="text" name="city" placeholder="city" required>
+                    </label>
+
+                    <label>
+                        Zip Code:
+                        <input type="text" name="zip_code" placeholder="zip code" required>
+                    </label>
+                </div>
+
+                <div class="box1">
+
+                    <label>
+                        Birth Date (mm/dd/yyyy):
+                        <input type="text" name="birth_date" placeholder="mm/dd/yyyy" required>
+                    </label>
+
+
+                    <div class="box2">
+
+                        <p>Gender:</p>
+
+                        <label>
+                            <input type="radio" name="gender" value="female"> Female</label>
+
+                        <label>
+                            <input type="radio" name="gender" value="male"> Male</label>
+
+                    </div>
+
+                </div>
+
+                <div class="box4">
+
+                    <p>Grade:</p>
+
+                    <label>
+                        <input type="radio" name="grade" value="pre-school"> Pre-school</label>
+
+                    <label>
+                        <input type="radio" name="grade" value="1º"> 1º</label>
+
+                    <label>
+                        <input type="radio" name="grade" value="2º"> 2º</label>
+
+                    <label>
+                        <input type="radio" name="grade" value="3º"> 3º</label>
+
+                    <label>
+                        <input type="radio" name="grade" value="4º"> 4º</label>
+
+                    <label>
+                        <input type="radio" name="grade" value="5º"> 5º</label>
+
+                </div>
+
+
+                <div class="box1">
+                    <label>
+                        Parent/Guardian:
+                        <input type="text" name="parent_guardian" placeholder="complete name" required>
+                    </label>
+                </div>
+
+                <div class="box1">
+
+                    <label>
+                        Contact Phone:
+                        <input type="text" name="contact_phone" placeholder="phone number" required>
+                    </label>
+
+                    <label>
+                        Contact E-mail:
+                        <input type="text" name="contact_e-mail" placeholder="email" required>
+                    </label>
+
+                </div>
+
+            </div>
+
+
+            <p class="margintop20">Which elementary schools do you live near?</p>
+
+            <div class="box3">
+
+
+                <p>First Closest School:</p>
+
+                <select name="First_Closest_School">
+
+                    <option value="Choose_1school">Choose School</option>
+
+                    <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+
+                    <option value="Greenbay">Greenbay</option>
+
+                    <option value="Howard A Yeager">Howard A Yeager</option>
+
+                    <option value="Marjorie P Hart">Marjorie P Hart</option>
+
+                    <option value="North Elementary">North Elementary</option>
+
+                    <option value="South Elementary">South Elementary</option>
+
+                </select>
+
+
+
+                <p>Second Closest School:</p>
+
+                <select name="Second_Closest_School">
+
+                    <option value="Choose_2school">Choose School</option>
+
+                    <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+
+                    <option value="Greenbay">Greenbay</option>
+
+                    <option value="Howard A Yeager">Howard A Yeager</option>
+
+                    <option value="Marjorie P Hart">Marjorie P Hart</option>
+
+                    <option value="North Elementary">North Elementary</option>
+
+                    <option value="South Elementary">South Elementary</option>
+
+                </select>
+
+            </div>
+
+
+
+            <p class="margintop20">What position(s) do you normally play? (check all that apply)</p>
+
+            <div class="box2">
+
+                <label>
+                    <input type="checkbox" name="Position_normal1" value="Forward"> Forward </label>
+
+                <label>
+                    <input type="checkbox" name="Position_normal2" value="Midfield"> Midfield </label>
+
+                <label>
+                    <input type="checkbox" name="Position_normal3" value="Defense"> Defense </label>
+                <label>
+                    <input type="checkbox" name="Position_normal4" value="Goalkeeper"> Goalkeeper </label>
+
+            </div>
+
+
+            <p class="margintop20">What position(s) do you want to play? (check all that apply</p>
+
+            <div class="box2">
+
+                <label>
+                    <input type="checkbox" name="Position_want1" value="Forward"> Forward</label>
+
+                <label>
+                    <input type="checkbox" name="Position_want2" value="Midfield"> Midfield</label>
+
+                <label>
+                    <input type="checkbox" name="Position_want3" value="Defense"> Defense</label>
+
+                <label>
+                    <input type="checkbox" name="Position_want4" value="Goalkeeper"> Goalkeeper</label>
+
+
+            </div>
+
+
+            <div class="box4">
+
+                <label>
+                    <input type="checkbox" name="have_uniform" value="yes"> Already Have a Uniform</label>
+
+            </div>
+
+
+
+            <div class="box3">
+
+
+                <p>Jersey Size:</p>
+
+                <select name="jersey_size">
+
+                    <option value="Choose_size">Choose Size</option>
+
+                    <option value="Youth_Small">Youth Small</option>
+
+                    <option value="youth_medium">Youth Medium</option>
+
+                    <option value="youth_large">Youth Large</option>
+
+                    <option value="small">Small</option>
+
+                    <option value="medium">Medium</option>
+
+                    <option value="large">Large</option>
+
+                    <option value="extra_large">Extra-Large</option>
+
+                </select>
+
+                <p>Shorts Size:</p>
+
+                <select name="shorts_size">
+
+                    <option value="Choose_size">Choose Size</option>
+
+                    <option value="Youth_Small">Youth Small</option>
+
+                    <option value="youth_medium">Youth Medium</option>
+
+                    <option value="youth_large">Youth Large</option>
+
+                    <option value="small">Small</option>
+
+                    <option value="medium">Medium</option>
+
+                    <option value="large">Large</option>
+
+                    <option value="extra_large">Extra-Large</option>
+
+                </select>
+
+            </div>
+
+            <footer>
+
+                <h4 class="margintop20 underline">Permission to Play</h4>
+
+                <p class="margintop20">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+                    Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+                    accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                    employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                    on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+                    sponsored activities, which transportation.</p>
+
+                <p>By signing below, I hereby agree and authorize the above. In addition, by entering your name below, I also acknowledge that I have read the
+                    cancellation policy and agree to its terms.</p>
+
+
+                <div class="rowline">
+
+                    <label>
+                        Parent/Guardian Signature:
+                        <input type="text" name="signature" placeholder="sign in" required>
+                    </label>
+
+
+                    <label>
+                        Date:
+                        <input type="text" name="date" placeholder="mm/dd/yyyy" required>
+                    </label>
+
+
+                    <label>
+                        <input type="submit" value="  Submit  ">
+                    </label>
+
+                </div>
+
+            </footer>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
